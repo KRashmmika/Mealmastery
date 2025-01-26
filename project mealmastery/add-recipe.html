@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealMastery - Add Your Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Add Your Recipe Page -->
+    <header>
+        <h1>Add Your Recipe</h1>
+    </header>
+
+    <section id="recipe-form">
+        <form id="add-recipe-form">
+            <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" required>
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" required></textarea>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" required></textarea>
+
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="vegan">Vegan</option>
+                <option value="gluten-free">Gluten-Free</option>
+                <option value="dessert">Dessert</option>
+                <option value="dinner">Dinner</option>
+            </select>
+
+            <label for="recipe-image">Upload Recipe Image:</label>
+            <input type="file" id="recipe-image">
+
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MealMastery | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealMastery - Explore Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Page -->
+    <header>
+        <h1>Explore Recipes</h1>
+        <img src="logo.PNG" alt="MealMastery Logo" class="logo">
+        <input type="text" id="search-bar" placeholder="Search for recipes...">
+        <button onclick="searchRecipes()">Search</button>
+    </header>
+
+    <section id="recipe-categories">
+        <h2>Categories</h2>
+        <div class="category-card">Vegan</div>
+        <div class="category-card">Gluten-Free</div>
+        <div class="category-card">Dinner</div>
+        <div class="category-card">Desserts</div>
+    </section>
+
+    <section id="popular-recipes">
+        <h2>Popular Recipes</h2>
+        <div id="recipe-list">
+            <!-- Recipes will be loaded here dynamically -->
+        </div>
+    </section>
+
+    <footer>
+        <a href="add-recipe.html">Add Your Own Recipe</a>
+        <p>&copy; 2025 MealMastery | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header .logo {
+    width: 100px; /* You can adjust the size as needed */
+    height: auto;
+}
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header input, header button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+#featured-recipes, #popular-recipes {
+    padding: 20px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+}
+
+#recipe-form {
+    padding: 20px;
+}
+
+#recipe-form input, #recipe-form textarea, #recipe-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#recipe-form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#recipe-form button:hover {
+    background-color: #2980b9;
+}
